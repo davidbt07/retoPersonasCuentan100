@@ -16,11 +16,7 @@ public class Main {
             //Analizamos si el número corresponde a un cambio de dirección
             if (numero%7==0){
                 System.out.println("Cambio de dirección!!  ");
-                if (adelante){
-                    adelante=false;
-                }else {
-                    adelante=true;
-                }
+                adelante = adelante? false: true;
             }
             //Analizamos si el número corresponde a saltar una persona
             if (numero%11==0){
